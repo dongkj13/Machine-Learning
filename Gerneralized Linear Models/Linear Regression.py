@@ -32,9 +32,9 @@ diabetes_y_test = diabetes.target[-20:]
 
 # Create linear regression object
 regr = linear_model.LinearRegression()
-regr = linear_model.Ridge(alpha = 10)
-regr = linear_model.Lasso(alpha = 1)
-regr = linear_model.RidgeCV(alphas=[0.1, 1.0, 10.0], store_cv_values = True)
+#regr = linear_model.Ridge(alpha = 10)
+#regr = linear_model.Lasso(alpha = 1)
+#regr = linear_model.RidgeCV(alphas=[0.1, 1.0, 10.0])
 
 # Train the model using the training sets
 regr.fit(diabetes_X_train, diabetes_y_train)

@@ -35,6 +35,7 @@ regr = linear_model.ElasticNetCV(alphas=[0.1, 1.0, 10.0])
 ```
 通过设置cv参数实现不同的验证方式（留一验证，K折验证）
 
+## 参考资料
 
 [线性模型（一）--广义线性模型（GLM）简介](http://blog.csdn.net/Fleurdalis/article/details/54864405)
 

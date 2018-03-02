@@ -46,3 +46,10 @@ regr = linear_model.ElasticNetCV(alphas=[0.1, 1.0, 10.0])
 [线性模型（三）－－ridge、lasso、ElasticNet回归](http://blog.csdn.net/fleurdalis/article/details/55059516)
 
 [机器学习-第3周，岭回归和lasso](http://f.dataguru.cn/thread-598486-1-1.html)
+
+[scikit-learn 线性回归算法库小结](http://www.cnblogs.com/pinard/p/6026343.html)
+
+[用scikit-learn和pandas学习Ridge回归](http://www.cnblogs.com/pinard/p/6023000.html)
+
+[Lasso回归算法： 坐标轴下降法与最小角回归法小结](http://www.cnblogs.com/pinard/p/6018889.html)
+
